@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data
+chroma_db/*
+!chroma_db/.gitkeep
+data/PDFs/*
+!data/PDFs/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
